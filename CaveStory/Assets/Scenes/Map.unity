@@ -1055,7 +1055,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50349f296bb03f84f8147e522ce0fe39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: []
+  cards:
+  - CardName: Hall
+    CardID: 1001
+    CardDes: "\uC2DC\uBC1C\uC544"
+    CardIcon: {fileID: 0}
+  - CardName: 
+    CardID: 0
+    CardDes: 
+    CardIcon: {fileID: 0}
+  - CardName: 
+    CardID: 0
+    CardDes: 
+    CardIcon: {fileID: 0}
+  - CardName: 
+    CardID: 0
+    CardDes: 
+    CardIcon: {fileID: 0}
+  - CardName: 
+    CardID: 0
+    CardDes: 
+    CardIcon: {fileID: 0}
 --- !u!4 &773659367
 Transform:
   m_ObjectHideFlags: 0
