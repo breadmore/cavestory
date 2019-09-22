@@ -111,7 +111,7 @@ public class CardSlot : MonoBehaviour
                         if (showTooltip && !dragCard)
                         {
                             tooltip = CreateTooltip(slots[k]);
-                            bringObject(slots[k].CardName);
+                            //bringObject(slots[k].CardName);
                             //RemoveCard();
                         }
                     }
