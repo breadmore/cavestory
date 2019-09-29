@@ -18,6 +18,7 @@ public class CameraZoom : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.SetResolution(1600, 900, true);
         thisCamera = GetComponent<Camera>();
         worldDefaultForward = transform.forward;
     }
