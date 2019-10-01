@@ -76,6 +76,7 @@
     <Compile Include="Assets\Resources\Scripts\Tactics\UIDrag.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\UIHealth.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\Unit.cs" />
+    <Compile Include="Assets\Resources\Scripts\Tactics\UnitCtrl.cs" />
     <Compile Include="Assets\Resources\Scripts\UIScript.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
