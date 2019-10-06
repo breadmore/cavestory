@@ -5,10 +5,14 @@ using UnityEngine;
 public class Unit : MonoBehaviour
 {
     public enum UnitState { Run, Battle, Attack, Die }
+    public enum ClassState { knight, warrior, heavy, magician, Priest }
     public UnitState unitState;
+    public ClassState classState;
     RaycastHit hit;
     [SerializeField]
     private float speed = 10.0f;
+    [SerializeField]
+    private float dis = 3.0f;
     [SerializeField]
     private GameObject Target;
     private bool isAttack = true;
@@ -16,7 +20,20 @@ public class Unit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        switch(classState)
+        {
+            case ClassState.knight:
+                break;
+            case ClassState.warrior:
+                dis = 10.0f;
+                break;
+            case ClassState.heavy:
+                dis = 15.0f;
+                break;
+            case ClassState.magician:
+                dis = 25.0f;
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -37,10 +54,10 @@ public class Unit : MonoBehaviour
 
     void FindTarget()
     {
-        if (Physics.Raycast(transform.position, Vector3.right, out hit, 3.0f))
+        if (Physics.Raycast(transform.position, transform.right, out hit, dis))
         {
             Debug.DrawRay(transform.position, Vector3.right * 3.0f, Color.blue, 0.3f);
-            if (hit.transform.tag == "Player")
+            if (hit.transform.tag == "Enemy")
             {
                 Target = hit.transform.gameObject;
                 unitState = UnitState.Battle;

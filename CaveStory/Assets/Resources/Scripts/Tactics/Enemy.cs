@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public enum ClassState { knight, warrior, heavy, magician, Priest }
+    public ClassState classState;
     public float HP = 3;
     public float MaxHealth = 3;
     // Start is called before the first frame update

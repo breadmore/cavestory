@@ -27,28 +27,23 @@ public class UnitCtrl : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
-            Debug.Log(oripos.y - Input.mousePosition.y);
             if (oripos.y - Input.mousePosition.y < -100)
             {
-                Debug.Log("Up");
                 UnitRotate(-90);
                 oripos = Input.mousePosition;
             }
             else if (oripos.y - Input.mousePosition.y > 100)
             {
-                Debug.Log("Down");
                 UnitRotate(90);
                 oripos = Input.mousePosition;
             }
             else if (oripos.x - Input.mousePosition.x > 100)
             {
-                Debug.Log("Left");
                 UnitRotate(180);
                 oripos = Input.mousePosition;
             }
             else if (oripos.x - Input.mousePosition.x < -100)
             {
-                Debug.Log("Right");
                 UnitRotate(0);
                 oripos = Input.mousePosition;
             }

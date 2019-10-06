@@ -148,7 +148,6 @@ D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.CrashReportin
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.DirectorModule.dll
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.dll
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.DSPGraphModule.dll
-D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.GridModule.dll
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
@@ -236,7 +235,6 @@ D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.CoreModule.xm
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.DSPGraphModule.xml
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.DirectorModule.xml
-D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.GridModule.xml
 D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
@@ -288,3 +286,4 @@ D:\Git_repositories\cavestory\CaveStory\obj\Debug\Assembly-CSharp.csproj.CoreCom
 D:\Git_repositories\cavestory\CaveStory\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Git_repositories\cavestory\CaveStory\obj\Debug\Assembly-CSharp.dll
 D:\Git_repositories\cavestory\CaveStory\obj\Debug\Assembly-CSharp.pdb
+D:\Git_repositories\cavestory\CaveStory\Temp\bin\Debug\Unity.CompilationPipeline.Common.dll
