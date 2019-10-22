@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 샘플링
 1안
 -회색의 철을 베이스로하고 청동색을 장식으로 하는 질감은 금속의 느낌이 거의 없게 표현
@@ -6,4 +7,14 @@
 UI
 UI.png 에있는 UI들은 그림들은 하나 하나씩 그려주시면 됩니다
 파일이름은  Floor_UI,Envi_UI,Food_UI, Mana_UI, People_UI, Soilder_UI, Menu_UI
+=======
+샘플링
+1안
+-회색의 철을 베이스로하고 청동색을 장식으로 하는 질감은 금속의 느낌이 거의 없게 표현
+2안
+-갈색을 베이스로 나무색이나 낡은 양피지 색으로 질감이 심하지 않은 수준에서 어느 정도 적당한 표현
+UI
+UI.png 에있는 UI들은 그림들은 하나 하나씩 그려주시면 됩니다
+파일이름은  Floor_UI,Envi_UI,Food_UI, Mana_UI, People_UI, Soilder_UI, Menu_UI
+>>>>>>> 50d9649f0deecd06bdf5a5113073a621ffd67339
  Attbuff_UI,Defbuff_UI, Prod_UI, Explore_UI,Equipinven_UI,Cardinven_UI, Turnend_UI로 저장해주시고 작업물은 git에서 Grapics_UI파일에 업로드 부탁드립니다
