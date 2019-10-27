@@ -66,9 +66,14 @@
     <Compile Include="Assets\Resources\Scripts\CardDataBase.cs" />
     <Compile Include="Assets\Resources\Scripts\CardSlot.cs" />
     <Compile Include="Assets\Resources\Scripts\DebugTest.cs" />
+    <Compile Include="Assets\Resources\Scripts\Furniture\Furniture.cs" />
     <Compile Include="Assets\Resources\Scripts\GetTilePos.cs" />
+    <Compile Include="Assets\Resources\Scripts\Item\Equipment.cs" />
+    <Compile Include="Assets\Resources\Scripts\Item\Item.cs" />
+    <Compile Include="Assets\Resources\Scripts\Item\OneTimeItem.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\CameraZoom.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\Enemy.cs" />
+    <Compile Include="Assets\Resources\Scripts\Tactics\EnemyHpBar.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\NameCardDrag.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\TacticGameManager.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\TacticTile.cs" />
@@ -76,6 +81,7 @@
     <Compile Include="Assets\Resources\Scripts\Tactics\UIFunction.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\Unit.cs" />
     <Compile Include="Assets\Resources\Scripts\Tactics\UnitCtrl.cs" />
+    <Compile Include="Assets\Resources\Scripts\UI\UIItem.cs" />
     <Compile Include="Assets\Resources\Scripts\UIScript.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

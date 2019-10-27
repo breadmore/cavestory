@@ -9,8 +9,11 @@ public class Unit : MonoBehaviour
     public UnitState unitState;
     public ClassState classState;
     RaycastHit hit;
+
     [SerializeField]
     private float speed = 10.0f;
+    [SerializeField]
+    private float AttackSpeed = 1.0f;
     [SerializeField]
     private float dis = 3.0f;
     [SerializeField]
@@ -46,9 +49,16 @@ public class Unit : MonoBehaviour
 
     void Move()
     {
-        if (!Target)
+        if (!Target.activeSelf)
             unitState = UnitState.Run;
-        if(unitState == UnitState.Run)
+        if(Physics.Raycast(transform.position, transform.right, out hit, 1.0f))
+        {
+            if(hit.transform.CompareTag("Obstacle"))
+            {
+                return;
+            }
+        }
+        else if (unitState == UnitState.Run)
             transform.Translate(speed * Time.deltaTime, 0, 0);
     }
 
@@ -84,7 +94,7 @@ public class Unit : MonoBehaviour
     {
         unitState = UnitState.Attack;
         Attack();
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(AttackSpeed);
         isAttack = true;
     }
 

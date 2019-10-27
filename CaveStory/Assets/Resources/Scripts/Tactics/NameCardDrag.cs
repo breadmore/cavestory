@@ -44,10 +44,6 @@ public class NameCardDrag : MonoBehaviour, IDragHandler, IEndDragHandler
     bool CheckArea()
     {
         //-415 385  -130 + 400 = 270
-        Debug.Log(transform.position.x > 215);
-        Debug.Log(transform.position.x < 1255);
-        Debug.Log(transform.position.y < 825);
-        Debug.Log(transform.position.y > 155);
         if (transform.position.x > 215 && transform.position.x < 1255 &&
             transform.position.y < 825 && transform.position.y > 155)
         {
