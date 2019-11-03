@@ -1,0 +1,12 @@
+{
+    "integer": 1,
+    "floatNum": 3.14,
+    "boolean": true,
+    "str":    "Hello World",
+
+    "array": [ 0, 1, 2 ],
+    "arrayString": [ "0", "1", "2" ],
+    "nested": {
+        "nestedInteger": 5
+    }
+}
