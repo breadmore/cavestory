@@ -1,5 +1,5 @@
 {
-    "integer": 1,
+    "int": 3,
     "floatNum": 3.14,
     "boolean": true,
     "str":    "Hello World",
