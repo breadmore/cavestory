@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class ToolsManager : MonoBehaviour
 {
+    string jsonText;
+
     public int MapX = 1;
     public int MapY = 1;
     public TileState[, ] Map;
@@ -14,10 +17,11 @@ public class ToolsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        jsonText = File.ReadAllText(Application.dataPath + "/Resources/Data/Maps/1-1.json");
         Map = new TileState[MapX, MapY];
         for(int i=0; i<MapX; i++)
         {
-            for(int j=0; j<MapY; j++)
+            for (int j=0; j<MapY; j++)
             {
                 Instantiate(SettingTile, new Vector3(i * 1.01f, 0, j * 1.01f), Tools.rotation, Tools);
                 Tools.GetChild(i * MapX + j).GetComponent<Tile>().currentX = i;
@@ -47,5 +51,12 @@ public class ToolsManager : MonoBehaviour
                 selectObject = TileState.STONE;
                 break;
         }
+    }
+
+    public void Save()
+    {
+        var JSONcreate = new JSONObject();
+        JSONcreate.AddField("MapX", MapX);
+        JSONcreate.AddField("MapY", MapY);
     }
 }
